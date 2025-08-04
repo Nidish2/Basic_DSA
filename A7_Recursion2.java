@@ -2,7 +2,7 @@ package dsa;
 
 import java.util.HashSet;
 
-public class A7_Recursion_2 {
+public class A7_Recursion2 {
 	void towerOfHanoi(int n, String src, String helper, String dest) {
 		if (n == 1) {
 			System.out.println("Tranfer " + n + " disk from " + src + " to " + dest);
@@ -145,7 +145,7 @@ public class A7_Recursion_2 {
 	}
 
 	public static void main(String[] args) {
-		A7_Recursion_2 r = new A7_Recursion_2();
+		A7_Recursion2 r = new A7_Recursion2();
 		r.towerOfHanoi(5, "S", "H", "D");
 		r.stringReverse(4, "Hello"); // s.length()-1;
 		r.lastOccur(0, "aabbccddabcd", 'd'); // to use declare String " ", n for Char ' ';

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class A8_Recursion_3 {
+public class A8_Recursion3 {
 
 	// to print all the permutations of a String;
 	public void printPerm(String s, String perm) {
@@ -129,7 +129,7 @@ public class A8_Recursion_3 {
 	}
 
 	public static void main(String[] args) {
-		A8_Recursion_3 r = new A8_Recursion_3();
+		A8_Recursion3 r = new A8_Recursion3();
 		r.printPerm("abcd", "");
 		System.out.println(r.countPaths(0, 0, 3, 4));
 		System.out.println(r.countPaths(5, 7));

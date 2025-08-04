@@ -1,6 +1,6 @@
 package dsa;
 
-public class A6_Recursion_1 {
+public class A6_Recursion1 {
 	// Overloading
 	void print(int i) {
 		if (i < 0)
@@ -113,7 +113,7 @@ public class A6_Recursion_1 {
 	}
 
 	public static void main(String[] args) {
-		A6_Recursion_1 r = new A6_Recursion_1();
+		A6_Recursion1 r = new A6_Recursion1();
 		r.print(6);
 		r.print(2, 6);
 		r.sum(0, 2, 0);
